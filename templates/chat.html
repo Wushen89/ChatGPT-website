@@ -44,18 +44,7 @@
                       </select>
                     </div>
                     <div class="settings-common">
-                      <span><i class="fa fa-key fa-lg" aria-hidden="true"></i>&nbsp; OpenAI Key</span>
-                      <input type="text" class="form-control ipt-common api-key" placeholder="可用自己的API key">
-                    </div>
-                    <div class="settings-common">
-                      <span><i class="fa fa-reddit-alien fa-lg" aria-hidden="true"></i>&nbsp; OpenAI 模型</span>
-                      <select class="form-control ipt-common model">
-                        <option value="gpt-3.5-turbo">gpt-3.5-turbo</option>
-                        <option value="gpt-4">gpt-4</option>
-                      </select>
-                    </div>
-                    <div class="settings-common">
-                      <span><i class="fa fa-floppy-o fa-lg" aria-hidden="true"></i>&nbsp; 记录对话内容，刷新不会消失</span>
+                      <span><i class="fa fa-floppy-o fa-lg" aria-hidden="true"></i>&nbsp; 记录对话内容</span>
                       <div class="chck-btn">
                         <input id="chck-1" type="checkbox">
                         <label for="chck-1" class="check-trail">
@@ -64,17 +53,13 @@
                       </div>
                     </div>
                     <div class="settings-common">
-                      <span><i class="fa fa-retweet fa-lg" aria-hidden="true"></i>&nbsp; 开启连续对话，加倍消耗tokens(不要用，输入继续即可)</span>
+                      <span><i class="fa fa-retweet fa-lg" aria-hidden="true"></i>&nbsp; 开启连续对话</span>
                       <div class="chck-btn">
                         <input id="chck-2" type="checkbox">
                         <label for="chck-2" class="check-trail">
                         <div class="check-handler"></div>
                         </label>
                       </div>
-                    </div>
-                    <div class="settings-common">
-                      <span style="font-size: 14px;"><i class="fa fa-qq fa-lg" aria-hidden="true"></i>&nbsp; QQ</span>
-                      <span style="font-size: 14px;"></span>
                     </div>
                   </div>
                 </div>
@@ -85,9 +70,6 @@
                 </div>
               </div>
               <div class="right">
-                <div class="screenshot common">
-                  <a class="icon-style" title="截图保存对话"><i class="fa fa-file-image-o fa-lg" aria-hidden="true"></i></a>
-                </div>
                 <div class="delete common">
                   <a class="icon-style" title="删除历史记录"><i class="fa fa-trash-o fa-lg" aria-hidden="true"></i></a>
                 </div>
@@ -97,7 +79,7 @@
               <div class="col-xs-12">
                 <textarea id="chatInput" class="form-control" rows="1"></textarea>
               </div>
-              <button id="chatBtn" class="btn btn-primary" type="button">Go !</button>
+              <button id="chatBtn" class="btn btn-primary" type="button">发送</button>
             </div>
           </div>
         </div>
